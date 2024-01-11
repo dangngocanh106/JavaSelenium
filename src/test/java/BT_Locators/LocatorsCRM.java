@@ -28,4 +28,26 @@ public class LocatorsCRM {
     private String buttonSaveAndCreate;
     private String buttonSave;
 
+    //4. Khai báo các locator Project
+    private String menuProject;
+    private String projectName;
+    private String comboboxCustomer;
+    private String checkboxCalculate;
+
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
